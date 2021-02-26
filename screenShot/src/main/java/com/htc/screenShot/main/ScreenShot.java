@@ -47,10 +47,7 @@ public class ScreenShot {
 			File file=((TakesScreenshot)chromeDriver).getScreenshotAs(OutputType.FILE);
 			File path=new File("C:\\Users\\saiprasad\\eclipse-testingworkspace\\screenShot\\src\\test\\resources\\"+picturename+timestamp()+".jpg");
 			Files.copy(file,path);
-			//Files.copy(file,new File("E:\\"+picturename+timestamp()+".jpg"));
-
-
-			
+			//Files.copy(file,new File("E:\\"+picturename+timestamp()+".jpg"));		
 		}
 	    public String timestamp() {
 	         return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
