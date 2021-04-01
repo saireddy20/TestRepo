@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ProductsListPage {
 	private WebDriver driver = null;
-	@FindBy(xpath = "(//a[@title='Silver Desert Necklace'])[2]")
+	@FindBy(xpath = "(//a[@title='Stretch Cotton Blazer'])[2]")
 	private WebElement productBy;
 
 	public ProductsListPage(WebDriver driver) {

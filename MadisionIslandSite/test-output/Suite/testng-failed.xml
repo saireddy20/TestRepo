@@ -7,15 +7,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestPages.TestLogin">
+      <class name="TestPages.ProductPurchase">
         <methods>
-          <include name="getdriver"/>
           <include name="browserSetup"/>
           <include name="takescreenshot"/>
-          <include name="Valid_And_Invalid_Login" invocation-numbers="1"/>
           <include name="start"/>
+          <include name="Valid_And_Invalid_Login" invocation-numbers="1"/>
         </methods>
-      </class> <!-- TestPages.TestLogin -->
+      </class> <!-- TestPages.ProductPurchase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

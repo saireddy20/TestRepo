@@ -34,11 +34,8 @@ public class CartPage {
 
 	public void selectproduct(String value) {
 		try {
-			// colourBy.click();
-			// sizeBy.click();
-			/*
-			 * WebElement we=quantityBy; we.click(); we.clear(); we.sendKeys(value);
-			 */
+			 colourBy.click();
+			 sizeBy.click();
 			quantityBy.click();
 			quantityBy.clear();
 			quantityBy.sendKeys(value);

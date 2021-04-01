@@ -7,9 +7,9 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="TestPages.TestRegistration">
-			 </class>		
-			<class name="TestPages.TestLogin">
+			<!-- <class name="TestPages.TestRegistration">
+			 </class> -->		
+			<class name="TestPages.ProductPurchase">
 			</class> 
 		</classes>
 	</test> <!-- Test -->

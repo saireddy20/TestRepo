@@ -1,5 +1,6 @@
 package utility;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.NoSuchElementException;
@@ -15,8 +16,12 @@ public class UtilClass {
 	protected static WebDriver driver;
 
 	public static String getCurrentTime() {
-		String currentDate = new SimpleDateFormat("yyyy-MM-dd-hhmmss").format(new Date());
+		String currentDate = new SimpleDateFormat("yyyy-MM-dd-hh-mm-ss").format(new Date());
 		return currentDate;
+	}
+	public static void cretingFile(String path) {
+		File name=new File(path+"\\screen"+UtilClass.getCurrentTime());
+		name.mkdir();
 	}
 
 	public static void dropdown(WebElement path,String value) {
@@ -34,4 +39,5 @@ public class UtilClass {
 			no.printStackTrace();
 		}
 	}
+
 }

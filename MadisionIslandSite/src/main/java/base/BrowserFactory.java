@@ -10,7 +10,7 @@ import Constants.constants;
 public class BrowserFactory {
 	
 
-	public static WebDriver setWebDriver(String browser) {
+	public static WebDriver getWebDriver(String browser) {
 		WebDriver driver=null;
 		if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty(constants.CHROME_PROPERTY, constants.CHROME_PATH);

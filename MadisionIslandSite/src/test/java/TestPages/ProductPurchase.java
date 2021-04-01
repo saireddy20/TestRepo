@@ -11,13 +11,13 @@ import Constants.constants;
 import base.TestBase;
 import utility.ScreenShot;
 
-public class TestLogin extends TestBase {
+public class ProductPurchase extends TestBase {
 	@Test(dataProviderClass = utility.Data_Provider.class, dataProvider = "Madison")
 	@Parameters("SheetName")
 	public void Valid_And_Invalid_Login(Map<String, String> mapData) throws IOException, InterruptedException {
+		
 		login.Login_To_Page(mapData.get("emailid"), mapData.get("password"));
 		Assert.assertEquals(homepage.assert_login(), "Hello, sai vara prasad!");
-
 		homepage.Home_Page(data.getProperty("searchproduct"));
 
 		productlist.selectproductBy();

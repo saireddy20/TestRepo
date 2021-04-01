@@ -55,9 +55,5 @@ public class Login {
 		return assertcheckBy.getText();
 	}
 
-	public void Logout() {
-		accountBy.click();
-		logoutbuttonBy.click();
-	}
 
 }

@@ -3,9 +3,9 @@ package Constants;
 public class constants {
 	public static final String CHROME_PROPERTY = "webdriver.chrome.driver";
 	
-	public static final String CHROME_PATH = "E:\\chromedriver\\chromedriver.exe";
+	public static final String CHROME_PATH = "..\\MadisionIslandSite\\src\\main\\resources\\drivers\\chromedriver.exe";
 	
-	public static final String GECKO_PATH = "C:\\Users\\saiprasad\\Downloads\\geckodriver\\geckodriver.exe";
+	public static final String GECKO_PATH = "..\\MadisionIslandSite\\src\\main\\resources\\drivers\\geckodriver.exe";
 	
 	public static final String GECKO_PROPERTY = "webdriver.gecko.driver";
 	
